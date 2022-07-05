@@ -12,6 +12,18 @@ header {
     padding-bottom: 10px;
 }
 
+#bg img {
+    opacity: 0.5;
+    width: 100%;
+}
+
+#top {
+    background-size: cover;
+    background-position: center top;
+    
+   
+}
+
 #menu {
     background-color: navy;
     display: flex;
@@ -34,13 +46,22 @@ header {
     color: gray;
 }
 
-#top h1, #top h2, #top p {
+#top h1,#top h2 {
     text-align: center;
     margin: 0;
 }
 
+#top p {
+    text-align: center;
+    font-size: 48px;
+    position: absolute; 
+    width: 100%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
 main {
-    background-color: ;
     width: 900px;
     margin: 0 auto;
     padding: 10px;
@@ -58,7 +79,7 @@ section h1 {
 section p { 
     margin-left: 20px;
 }
-img { 
+#link img { 
     margin-left: 20px;
 }
 
@@ -92,6 +113,10 @@ img {
 #link a {
     text-decoration: none;
 }
+
+.location-map {
+    margin-bottom: -36px;
+} 
 
 
 footer {
